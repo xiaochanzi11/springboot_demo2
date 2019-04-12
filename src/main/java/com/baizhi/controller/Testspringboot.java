@@ -13,5 +13,6 @@ public class Testspringboot {
     public String test(HttpSession session) {
         session.setAttribute("a", "aaa");
         return "Hello World";
+        System.out.print("111111111111111");
     }
 }
